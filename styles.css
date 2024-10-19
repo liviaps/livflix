@@ -1,0 +1,34 @@
+body{
+
+    color:coral;
+    background:wheat;
+    margin:0px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px coral;
+    padding: 20px;
+    font-size: 32px;
+    color:lightseagreen;
+}
+
+section{
+    background: rgb(28, 98, 69);
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+img{
+    height: 150px;
+}
+
+.categorias-videos img{
+    opacity: 0.5;
+    height: 20px;
+}
+
+.categorias-videos img:hover{
+    opacity:1.0;
+    border:1px solid green;
+}
